@@ -52,8 +52,8 @@ API
     to this method. Note, you still need to provide the URL where you
     got the HTML from so it can use that to download any external CSS.
     
-  * When calling process_url() or process_html(), you have to call process()
-    at the end without arguments, in order to post_process the pages that were
+  * When calling ``process_url()`` or ``process_html()``, you have to call ``process()``
+    at the end without arguments, in order to post process the pages that were
     processed individually.
 
   The ``Processor`` instance will make two attributes available
